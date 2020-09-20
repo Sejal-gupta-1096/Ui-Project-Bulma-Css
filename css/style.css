@@ -1,10 +1,9 @@
-Comfortaa
-:root {
-  --primary-font-style:  "Comfortaa";
-  --secondary-font-style:  "Inter";
+Comfortaa :root {
+  --primary-font-style: "Comfortaa";
+  --secondary-font-style: "Inter";
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -12,17 +11,17 @@ Comfortaa
   box-sizing: border-box;
 }
 
-.navbar{
-  position: fixed;
+.navbar {
+  position: absolute;
   background-color: transparent;
   width: 100%;
   padding: 30px 0;
   top: 0;
   z-index: 999;
-  transition: .3s linear;
+  transition: 0.3s linear;
 }
 
-.inner-width{
+.inner-width {
   margin: auto;
   display: flex;
   align-items: center;
@@ -30,14 +29,14 @@ Comfortaa
   justify-content: space-around;
 }
 
-.navbar-menu a{
+.navbar-menu a {
   font-size: 15px;
   font-weight: 700;
-  transition: .2s linear;
+  transition: 0.2s linear;
   line-height: 15.6px;
 }
 
-.left-nav{
+.left-nav {
   width: 50%;
   padding: 0 40px;
   display: flex;
@@ -45,11 +44,11 @@ Comfortaa
   justify-content: space-around;
 }
 
-.left-nav a{
+.left-nav a {
   color: #000000;
 }
 
-.right-nav{
+.right-nav {
   width: 50%;
   padding: 0 40px;
   display: flex;
@@ -57,25 +56,25 @@ Comfortaa
   justify-content: space-around;
 }
 
-.right-nav a{
-  color: #FFFFFF;
+.right-nav a {
+  color: #ffffff;
 }
 
-#contact-btn{
-  color:  #302EA7;
+#contact-btn {
+  color: #302ea7;
 }
 
-.navbar-menu a:hover{
-  border-bottom: 2px solid #302EA7;     
+.navbar-menu a:hover {
+  border-bottom: 2px solid #302ea7;
 }
-.logo{
+.logo {
   width: 92px;
   height: 92px;
   background-image: url(../images/logo.png);
   background-size: contain;
 }
 
-.logo a:hover{
+.logo a:hover {
   border-bottom: 0px;
 }
 
@@ -117,44 +116,43 @@ Comfortaa
   background-color: #111;
 } */
 
-#home{
+#home {
   height: 100vh;
   min-height: 600px;
   background-size: cover;
-  background-attachment: fixed;
   display: flex;
 }
 
-.right-bg{
+.right-bg {
   width: 50%;
   height: 100%;
   background: url(../images/group-blue.svg) no-repeat center;
 }
-.left-bg{
-  width: 70%;
+.left-bg {
+  width: 50%;
   height: 100%;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   position: relative;
 }
 
-.left-div-inner-width{
+.left-div-inner-width {
   margin: auto;
   margin-top: 13rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 50%;
+  width: 60%;
   height: 40%;
   justify-content: space-around;
 }
 
 .title.is-1 {
-  font-size: 5rem;
+  font-size: 70px;
 }
 
-#left-bg-btn{
-  color: #302EA7;
-  background-color: #FEC144;
+#left-bg-btn {
+  color: #302ea7;
+  background-color: #fec144;
   font-family: "Comfortaa";
   font-weight: 700;
   font-size: 12px;
@@ -162,15 +160,12 @@ Comfortaa
   width: 10rem;
 }
 
-.man-left-bg{
+.man-left-bg {
   height: 15rem;
   position: absolute;
   left: 60%;
   bottom: 10%;
 }
-
-
-
 
 /* @media screen and (max-width: 700px){
   .menu-toggler{
@@ -219,4 +214,3 @@ Comfortaa
     bottom: 14px;
   }
 } */
-
