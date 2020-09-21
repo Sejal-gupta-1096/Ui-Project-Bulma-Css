@@ -145,7 +145,7 @@
 #left-bg-btn {
   color: #302ea7;
   background-color: #fec144;
-  font-family: "Comfortaa";
+  font-family: Comfortaa;
   font-weight: 700;
   font-size: 12px;
   height: 3rem;
@@ -207,7 +207,7 @@
   /* border: 1px solid black; */
 }
 
-.heading-bg{
+#features .heading-bg{
   height: 12vh;
   /* min-height: 7rem; */
   /* border: 1px solid black; */
@@ -218,12 +218,18 @@
 }
 
 .heading-text{
-  font-size: 5vh;
+  font-size: 4vh;
   /* border: 1px solid black; */
-  font-family: Comfortaa;
-  font-weight: 700;
 }
 
+.primary-font-style{
+  font-family: Comfortaa;
+}
+
+.bold-font{
+  font-weight: 700;
+  color: #000;
+}
 .feature-container{
   display: flex;
   flex-direction: column;
@@ -297,7 +303,69 @@
 }
 
 #platform{
-  border: 1px solid black;
+  /* border: 1px solid black; */
+}
+
+#platform .heading-bg{
+  height: 12vh;
+  /* min-height: 7rem; */
+  /* border: 1px solid black; */
+  background-image: url("../images/A\ PLATFORM\ FOR\ EVERYONE.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#platform-carousel .heading-bg{
+  height: 12vh;
+  /* min-height: 7rem; */
+  /* border: 1px solid black; */
+  background-image: url("../images/A\ PLATFORM\ FOR\ EVERYONE.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.platform-text-container{
+  width: 13rem;
+  margin:1rem;
+}
+
+.platform{
+  display: flex;
+  justify-content: center;
+}
+.platform-container{
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  align-items: center;
+  background-color: #F0F0F3;
+  width: 17rem;
+  margin: 1rem;
+}
+
+
+#platform-carousel{
+  display: none;
+}
+
+.slider-item{
+  margin: 1rem;
+}
+
+.card{
+  background-color:#F0F0F3;
+  border-radius: 16px;
+}
+
+.card-image{
+  display: flex;
+  justify-content: center;
+}
+.carousel-img{
+  height: 12rem;
+  width: 12rem;
 }
 
 #projects{
@@ -309,9 +377,19 @@
 }
 
 .card-bg-color{
-  background-color:#E1DCFF;
+  background-color:#F0F0F3;
 }
 
+@media screen and (max-width:1000px){
+
+  #platform-carousel{
+    display: block;
+  }
+
+  #platform{
+    display: none;
+  }
+}
 
 /* @media screen and (max-width: 700px){
   .menu-toggler{

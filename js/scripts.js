@@ -10,4 +10,10 @@ $(document).ready(function(){
     $(this).toggleClass("active");
     $(".navbar-menu").toggleClass("active");
   });
+
+  bulmaCarousel.attach('#slider', {
+    slidesToScroll: 1,
+    slidesToShow: 2.5,
+    infinite: true,
+  });
 });
