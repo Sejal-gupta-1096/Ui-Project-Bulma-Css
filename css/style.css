@@ -205,9 +205,24 @@
 
 #features{
   /* border: 1px solid black; */
+  display: none;
+}
+
+#features-carousel{
+  display: block;
 }
 
 #features .heading-bg{
+  height: 12vh;
+  /* min-height: 7rem; */
+  /* border: 1px solid black; */
+  background-image: url("../images/FEATURES.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#features-carousel .heading-bg{
   height: 12vh;
   /* min-height: 7rem; */
   /* border: 1px solid black; */
@@ -244,6 +259,13 @@
   /* border: 1px solid black; */
 }
 
+.feature-img-carousel{
+  height: 9rem;
+  width: 9rem;
+  margin: 3rem;
+  /* border: 1px solid black; */
+}
+
 .feature-container .title{
   margin-bottom: 2rem;
   font-weight: 700;
@@ -252,6 +274,54 @@
   font-size: 16px;
   line-height: 19px;
   letter-spacing: -0.24px;
+}
+
+#car-f1{
+  background-color: rgba(67, 120, 219, 0.16);
+}
+
+#car-f2{
+  background-color: rgba(240, 167, 20, 0.16);
+}
+
+#car-f3{
+  background-color: rgba(243, 85, 85, 0.16);
+}
+
+#car-f4{
+  background-color: rgba(40, 161, 100, 0.16);
+}
+
+#car-f5{
+  background-color: rgba(139, 175, 156, 0.16);
+}
+
+#car-f6{
+  background-color:rgba(85, 23, 123, 0.16);
+}
+
+#car-f1 .title{
+  color: #405DB5;
+}
+
+#car-f2 .title{
+  color: #F0A714;
+}
+
+#car-f3 .title{
+  color: #FAB3F3;
+}
+
+#car-f4 .title{
+  color: #228955;
+}
+
+#car-f5 .title{
+  color:#1C5575;
+}
+
+#car-f6 .title{
+  color:#610E88;
 }
 
 #f1{
@@ -352,6 +422,7 @@
 
 .slider-item{
   margin: 1rem;
+  width: auto !important;
 }
 
 .card{
@@ -388,6 +459,14 @@
 
   #platform{
     display: none;
+  }
+
+  #features-carousel{
+    display: none;
+  }
+
+  #features{
+    display: block;
   }
 }
 

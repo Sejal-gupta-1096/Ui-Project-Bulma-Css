@@ -11,7 +11,13 @@ $(document).ready(function(){
     $(".navbar-menu").toggleClass("active");
   });
 
-  bulmaCarousel.attach('#slider', {
+  bulmaCarousel.attach('#slider-platform', {
+    slidesToScroll: 1,
+    slidesToShow: 1,
+    infinite: true,
+  });
+
+  bulmaCarousel.attach('#slider-features', {
     slidesToScroll: 1,
     slidesToShow: 2.5,
     infinite: true,
