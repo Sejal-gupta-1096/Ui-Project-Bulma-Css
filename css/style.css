@@ -64,8 +64,8 @@
   border-bottom: 2px solid #302ea7;
 }
 .logo {
-  width: 92px;
-  height: 92px;
+  width: 85px;
+  height: 85px;
   background-image: url(../images/logo.png);
   background-size: contain;
 }
@@ -443,10 +443,6 @@
   /* border: 1px solid black; */
 }
 
-#contact{
-  border: 1px solid black;
-}
-
 .card-bg-color{
   background-color:#F0F0F3;
 }
@@ -467,6 +463,14 @@
 
   #features{
     display: block;
+  }
+
+  .horizontal-line{
+    display: none;
+  }
+
+  .vertical-line{
+    display: none;
   }
 }
 
@@ -511,6 +515,130 @@
 
 #p4{
   background-color: #F8C1CE;
+}
+
+#contact{
+  background-color: #302EA7;
+  padding : 0;
+}
+
+#contact .columns{
+  margin: 0;
+  padding: 0;
+}
+
+#contact .column{
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.align{
+  position: absolute;
+}
+
+.left{
+  left : 0;
+}
+
+.top{
+  top:0;
+}
+.right{
+  right: 0;
+}
+
+.bottom{
+  bottom: 0;
+}
+
+.border{
+  border: 1px solid white;
+}
+
+#content-block-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#contact p{
+  color: #FFFFFF;
+}
+
+.margin-1{
+  margin: 0.6rem;
+}
+
+#contact-block-2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+#contact-block-2 div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.line-height{
+  line-height: 2rem;
+}
+
+.width{
+  width: 85%;
+}
+
+.horizontal-line{
+  position: absolute;
+  left: 45%;
+  margin-top: 1rem;
+  height: 50%;
+  border: 1px solid #ffffff;
+}
+
+.vertical-line{
+  position: absolute;
+  width: 90%;
+  top: -20%;
+  border: 1px solid #ffffff;
+}
+
+#contact-block-4{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+#social-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.social{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.social span{
+  color: #ffffff;
+}
+
+.social div{
+  display: flex;
+}
+
+.social img{
+  height: 90%;
+}
+
+.margin-2{
+  margin-bottom: 2rem;
 }
 /* @media screen and (max-width: 700px){
   .menu-toggler{
