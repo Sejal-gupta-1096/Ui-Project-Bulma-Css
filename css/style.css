@@ -574,8 +574,8 @@
 .horizontal-line{
   position: absolute;
   left: 45%;
-  margin-top: 1rem;
-  height: 50%;
+  margin-top: 2rem;
+  height: 70%;
   border: 1px solid #ffffff;
 }
 
@@ -591,12 +591,13 @@
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
+  margin-bottom: 4rem !important;
 }
 
 #social-container{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .social{
