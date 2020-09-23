@@ -19,6 +19,7 @@
 /* NAVBAR */
 
 .navbar {
+  overflow: initial;
   position: absolute;
   background-color: transparent;
   width: 100%;
