@@ -550,6 +550,16 @@
   border: 1px solid white;
 }
 
+#contact{
+  position: relative;
+}
+
+.company-tag{
+  position: absolute;
+  left:10%;
+  top: 75%;
+}
+
 #contact-block-1{
   display: flex;
   flex-direction: column;
@@ -718,12 +728,25 @@
     align-items: center;
   }
 
+
+}
+
+@media screen and (max-width:770px){
   #contact-block-2{
     margin-bottom: 3rem !important;
   }
 
-
+  .company-tag{
+    position: absolute;
+    top:95%;
+    width: 100%;
+    font-size: 13px;
+    bottom: 0 !important;
+    left: 50% !important;
+    transform: translate(-30%);
+  }
 }
+
 
 @media screen and (min-width: 700px){
 .navbar, .navbar-end, .navbar-menu, .navbar-start {
