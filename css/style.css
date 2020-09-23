@@ -466,6 +466,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .projects-container img{
@@ -476,6 +477,7 @@
   padding: 1.5rem 0;
   margin-top: -5%;
   z-index: 0;
+  width: 90%;
 }
 
 #p1{
@@ -492,6 +494,16 @@
 
 #p4{
   background-color: #F8C1CE;
+}
+
+.num-border{
+  margin-top: -3rem;
+}
+
+.num{
+ font-family: system-ui;
+ font-weight: 900;
+ font-size: 7rem !important;
 }
 
 
@@ -670,6 +682,9 @@
   display: none;
 }
 
+.project-desc{
+  width: 50%;
+}
 }
 
 @media screen and (max-width: 700px){
@@ -696,6 +711,7 @@
     height: 20rem;
     bottom: 0;
   }
+
 }
 
 @media screen and (min-width: 700px){
@@ -703,4 +719,5 @@
     align-items: stretch;
     display: flex;
 }
+
 }
