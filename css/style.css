@@ -708,6 +708,10 @@
     bottom: 0;
   }
 
+  .feature-container .title{
+    margin : 0;
+  }
+  
   #contact-block-1{
     align-items: center;
   }
