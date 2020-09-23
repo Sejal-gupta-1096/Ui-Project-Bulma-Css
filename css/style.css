@@ -7,6 +7,13 @@
   text-decoration: none;
   font-family: "Comfortaa";
   box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+:focus { outline: none; }
+
+*{
+  overflow-x: hidden;
 }
 
 /* NAVBAR */
@@ -53,6 +60,10 @@
 
 .btn-is-active{
   width: 85%;
+}
+
+button a{
+  overflow-y: hidden;
 }
 
 .navbar-menu a {
@@ -136,6 +147,7 @@
 .logo {
   width: 90px;
   height: 90px;
+  z-index:9999;
 }
 
 .center{
@@ -160,6 +172,7 @@
 
 
 .right-bg {
+  z-index: 99;
   width: 50%;
   height: 100%;
   background: url(../images/group-blue.svg) no-repeat center;
@@ -205,13 +218,42 @@
 
 /* FEATURES */
 
+#features-desktop{
+  padding-bottom:1rem;
+  padding-left:1rem;
+  width: 60%;
+  display: flex;
+  align-items: flex-end;
+  background-color: #D6E6FF;
+  z-index:0;
+  position:relative;
+  margin-top:-2rem;
+}
+
+#features-desktop #features-title{
+  height: 60%;
+  width: 60%;
+}
+
+#features-eclipse{
+  align-self: flex-start;
+  width: 20%;
+  margin-right: 3.5rem;
+  margin-left: auto;
+}
+
+
 #features{
   display: none;
 }
 
+.features-mobile{
+  display: none !important;
+}
+
 
 #features .heading-bg{
-  height: 12vh;
+  /* height: 12vh; */
   background-image: url("../images/FEATURES.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -324,6 +366,10 @@
   margin: 3rem;
 }
 
+#features-carousel .container{
+  max-width: 100%;
+}
+
 #car-f1{
   background-color: rgba(67, 120, 219, 0.16);
 }
@@ -376,7 +422,7 @@
 /* PLATFORM */
 
 #platform .heading-bg{
-  height: 12vh;
+  /* height: 12vh; */
   background-image: url("../images/A\ PLATFORM\ FOR\ EVERYONE.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -387,6 +433,14 @@
   width: 13rem;
   margin:1rem;
 }
+
+.section-heading{
+  height: 100%;
+  margin-top: 0.3rem;
+}
+
+
+
 
 .platform{
   display: flex;
@@ -431,6 +485,7 @@
 }
 
 /* PLATFORM CAROUSEL */
+
 
 #platform-carousel .heading-bg{
   height: 12vh;
@@ -480,6 +535,10 @@
   margin-top: -5%;
   z-index: 0;
   width: 90%;
+}
+
+.hide-overflow{
+  overflow-y: hidden;
 }
 
 #p1{
@@ -728,6 +787,19 @@
     align-items: center;
   }
 
+  .features-mobile{
+    display: block !important;
+  }
+
+  #features-desktop{
+    display: none !important;
+  }
+
+  .section-heading p{
+    padding: 0;
+    font-size: 15px;
+    overflow-y: hidden;
+  }
 
 }
 
@@ -737,13 +809,10 @@
   }
 
   .company-tag{
-    position: absolute;
     top:95%;
     width: 100%;
-    font-size: 13px;
+    font-size: 15px;
     bottom: 0 !important;
-    left: 50% !important;
-    transform: translate(-30%);
   }
 }
 

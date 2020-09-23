@@ -23,6 +23,12 @@ $(document).ready(function(){
     infinite: true,
   });
 
+  bulmaCarousel.attach('#slider', {
+    slidesToScroll: 1,
+    slidesToShow: 2,
+    infinite: true,
+  });
+
   $(".navbar-burger").click(function() {
 
     // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
