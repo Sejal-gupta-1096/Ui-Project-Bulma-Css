@@ -26,9 +26,11 @@
 
 .navbar-menu.is-active {
   position: absolute;
-  left: 50%;
+  top:50%;
+  left: 41%;
+  margin:2em;
   transform: translate(-50%);
-  width: 60%;
+  width: 90%;
   display: block;
   border-radius: 32px;
   background-color: #F0F0F3;
@@ -711,7 +713,7 @@
   .feature-container .title{
     margin : 0;
   }
-  
+
   #contact-block-1{
     align-items: center;
   }
