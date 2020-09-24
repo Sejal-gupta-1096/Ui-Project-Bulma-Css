@@ -7,7 +7,7 @@
   text-decoration: none;
   font-family: "Comfortaa";
   box-sizing: border-box;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 :focus { outline: none; }
@@ -825,6 +825,7 @@ a.navbar-item:hover {
 
 #contact-block-1 p{
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 #contact-block-2{
@@ -835,11 +836,12 @@ a.navbar-item:hover {
   top:95%;
   width: 100%;
   font-size: 15px;
+  left: 0;
   bottom: 0 !important;
 }
 
 .font-size-30{
-  font-size: 25px !important;
+  font-size: 18px !important;
 }
 
 }
