@@ -231,6 +231,7 @@ a.navbar-item:hover {
 /* FEATURES */
 
 #features-desktop{
+  padding-top:1rem;
   padding-bottom:1rem;
   padding-left:1rem;
   width: 60%;
@@ -239,7 +240,7 @@ a.navbar-item:hover {
   background-color: #D6E6FF;
   z-index:-10;
   position: absolute;
-  margin-bottom: -6.5rem;
+  margin-bottom: -7rem;
   bottom: 0;
 }
 
@@ -315,6 +316,11 @@ a.navbar-item:hover {
   height: 8rem;
   width: 8rem;
 }
+
+.slider-pagination{
+  display: none;
+}
+
 
 #f1{
   background-color: rgba(67, 120, 219, 0.16);
@@ -562,6 +568,22 @@ a.navbar-item:hover {
   padding: 1rem;
 }
 
+.auto_div_num{
+  position: relative;
+  top: 46px;
+  background: white;
+  z-index: 999;
+  width: 80%;
+}
+
+.auto_div_num_border{
+border: 4px solid black;
+width: 100%;
+z-index: 1;
+height: 85px;
+border-radius: 20px;
+}
+
 .hide-overflow{
   overflow-y: hidden;
 }
@@ -589,7 +611,7 @@ a.navbar-item:hover {
 .num{
  font-family: system-ui;
  font-weight: 900;
- font-size: 7rem !important;
+ font-size: 60px;
 }
 
 
