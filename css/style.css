@@ -133,7 +133,8 @@ button a{
   margin-right: 2rem;
 }
 
-.navbar-item:hover{
+
+a.navbar-item:hover {
   background-color: transparent;
 }
 
