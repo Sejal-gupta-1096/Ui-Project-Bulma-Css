@@ -819,9 +819,13 @@ a.navbar-item:hover {
 
 .section-heading p{
   padding: 0;
-  font-size: 15px;
   overflow-y: hidden;
 }
+
+#platform-carousel .section-heading p{
+  font-size: 18px;
+}
+
 
 #contact-block-1 p{
   text-align: center;
@@ -840,10 +844,6 @@ a.navbar-item:hover {
   bottom: 0 !important;
 }
 
-.font-size-30{
-  font-size: 18px !important;
-}
-
 }
 
 @media screen and (min-width: 1024px){
@@ -852,4 +852,10 @@ a.navbar-item:hover {
     display: flex;
 }
 
+}
+
+@media screen and (max-width: 700px) {
+  #features .font-size-30{
+    font-size: 18px !important;
+  }
 }
