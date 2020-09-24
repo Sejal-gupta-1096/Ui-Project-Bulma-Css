@@ -16,6 +16,7 @@
   overflow-x: hidden;
 }
 
+
 /* NAVBAR */
 
 .navbar {
@@ -147,8 +148,8 @@ a.navbar-item:hover {
 }
 
 .logo {
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
   z-index:9999;
 }
 
@@ -627,6 +628,7 @@ a.navbar-item:hover {
 }
 
 #contact-block-1{
+  margin-right: 2rem !important;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -663,20 +665,26 @@ a.navbar-item:hover {
 
 .horizontal-line{
   position: absolute;
-  left: 45%;
-  margin-top: 2rem;
-  height: 70%;
+  left: 50%;
+  margin-top: 3rem;
+  height: 80%;
   border: 1px solid #ffffff;
 }
 
 .vertical-line{
   position: absolute;
-  width: 90%;
-  top: -20%;
+  width: 100%;
+  top: 0%;
   border: 1px solid #ffffff;
 }
 
+#contact-block-3{
+  margin-right: 3rem !important;
+}
+
+
 #contact-block-4{
+  padding-top: 2.5rem !important;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -687,7 +695,7 @@ a.navbar-item:hover {
 #social-container{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .social{
@@ -710,6 +718,10 @@ a.navbar-item:hover {
 
 .margin-2{
   margin-bottom: 2rem;
+}
+
+.font-size-15{
+  font-size: 15px;
 }
 
 
@@ -804,9 +816,10 @@ a.navbar-item:hover {
   overflow-y: hidden;
 }
 
+#contact-block-1 p{
+  text-align: center;
 }
 
-@media screen and (max-width:1024px){
 #contact-block-2{
   margin-bottom: 3rem !important;
 }
@@ -817,7 +830,7 @@ a.navbar-item:hover {
   font-size: 15px;
   bottom: 0 !important;
 }
-  
+
 }
 
 @media screen and (min-width: 1024px){
