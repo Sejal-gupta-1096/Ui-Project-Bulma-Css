@@ -173,7 +173,6 @@ button a{
 
 
 .right-bg {
-  z-index: 99;
   width: 50%;
   height: 100%;
   background: url(../images/group-blue.svg) no-repeat center;
@@ -226,9 +225,10 @@ button a{
   display: flex;
   align-items: flex-end;
   background-color: #D6E6FF;
-  z-index:0;
-  position:relative;
-  margin-top:-2rem;
+  z-index:-10;
+  position: absolute;
+  margin-bottom: -6.5rem;
+  bottom: 0;
 }
 
 #features-desktop #features-title{
@@ -246,6 +246,11 @@ button a{
 
 #features{
   display: none;
+  margin-top: 6rem;
+}
+
+#features-carousel{
+  margin-top: 6rem;
 }
 
 .features-mobile{
@@ -709,7 +714,7 @@ button a{
 
 /* MEDIA QUERY FOR MOBILE VIEW */
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1024px){
 
   #platform-carousel{
     display: block;
@@ -730,11 +735,8 @@ button a{
   .horizontal-line{
     display: none;
   }
-  
-}
 
-@media screen and (max-width: 1023px){
-.navbar-menu {
+  .navbar-menu {
     background-color:transparent;
     box-shadow: 0 0 0 0;
 }
@@ -753,72 +755,71 @@ button a{
 .project-desc{
   width: 50%;
 }
+
+
+.navbar-brand {
+  display: -webkit-box;
 }
 
-@media screen and (max-width: 700px){
-  .navbar-brand {
-    display: -webkit-box;
+.navbar-menu {
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(10,10,10,.1);
+  padding: .5rem 0;
 }
 
-  .navbar-menu {
-    background-color: #fff;
-    box-shadow: 0 8px 16px rgba(10,10,10,.1);
-    padding: .5rem 0;
-  }
+.right-bg{
+  width: 0;
+}
 
-  .right-bg{
-    width: 0;
-  }
+.left-bg{
+  width: 100%;
+}
 
-  .left-bg{
-    width: 100%;
-  }
+.man-left-bg{
+  left: 10%;
+  height: 20rem;
+  bottom: 0;
+}
 
-  .man-left-bg{
-    left: 10%;
-    height: 20rem;
-    bottom: 0;
-  }
+.feature-container .title{
+  margin : 0;
+}
 
-  .feature-container .title{
-    margin : 0;
-  }
+#contact-block-1{
+  align-items: center;
+}
 
-  #contact-block-1{
-    align-items: center;
-  }
+.features-mobile{
+  display: block !important;
+}
 
-  .features-mobile{
-    display: block !important;
-  }
+#features-desktop{
+  display: none !important;
+}
 
-  #features-desktop{
-    display: none !important;
-  }
-
-  .section-heading p{
-    padding: 0;
-    font-size: 15px;
-    overflow-y: hidden;
-  }
+.section-heading p{
+  padding: 0;
+  font-size: 15px;
+  overflow-y: hidden;
+}
 
 }
 
-@media screen and (max-width:770px){
-  #contact-block-2{
-    margin-bottom: 3rem !important;
-  }
-
-  .company-tag{
-    top:95%;
-    width: 100%;
-    font-size: 15px;
-    bottom: 0 !important;
-  }
+@media screen and (max-width:1024px){
+#contact-block-2{
+  margin-bottom: 3rem !important;
 }
 
+.company-tag{
+  top:95%;
+  width: 100%;
+  font-size: 15px;
+  bottom: 0 !important;
+}
+  
+}
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 1024px){
 .navbar, .navbar-end, .navbar-menu, .navbar-start {
     align-items: stretch;
     display: flex;
