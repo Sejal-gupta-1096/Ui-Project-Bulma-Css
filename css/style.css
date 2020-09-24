@@ -630,12 +630,13 @@ a.navbar-item:hover {
 
 .company-tag{
   position: absolute;
-  left:10%;
+  left: 18%;
   top: 75%;
+  z-index: 1;
 }
 
 #contact-block-1{
-  margin-right: 2rem !important;
+  padding: 1rem !important;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -644,6 +645,11 @@ a.navbar-item:hover {
 #contact p{
   color: #FFFFFF;
 }
+
+.font-size-13{
+  font-size: 13px;
+}
+
 
 .margin-1{
   margin: 0.6rem;
@@ -670,9 +676,14 @@ a.navbar-item:hover {
   width: 85%;
 }
 
+.padding-top{
+  padding-top: 4rem !important;
+}
+
+
 .horizontal-line{
   position: absolute;
-  left: 50%;
+  left: 47%;
   margin-top: 3rem;
   height: 80%;
   border: 1px solid #ffffff;
@@ -684,6 +695,11 @@ a.navbar-item:hover {
   top: 0%;
   border: 1px solid #ffffff;
 }
+
+.corner-img-height{
+  height: 100%;
+}
+
 
 #contact-block-3{
   margin-right: 3rem !important;
@@ -842,6 +858,10 @@ a.navbar-item:hover {
   font-size: 15px;
   left: 0;
   bottom: 0 !important;
+}
+
+.corner-img-height{
+  height: auto;
 }
 
 }
