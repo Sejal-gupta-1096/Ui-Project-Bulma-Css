@@ -573,7 +573,7 @@ a.navbar-item:hover {
   top: 46px;
   background: white;
   z-index: 999;
-  width: 80%;
+  width: auto;
 }
 
 .auto_div_num_border{
