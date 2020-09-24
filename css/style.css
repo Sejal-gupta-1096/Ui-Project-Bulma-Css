@@ -519,6 +519,11 @@ a.navbar-item:hover {
 
 /* PROJECTS */
 
+.font-size-30{
+  font-size: 30px;
+}
+
+
 #projects .heading-bg{
   height: 12vh;
   background-image: url("../images/PROJECTS.png");
@@ -543,6 +548,8 @@ a.navbar-item:hover {
   margin-top: -5%;
   z-index: 0;
   width: 90%;
+  min-width: max-content;
+  padding: 1rem;
 }
 
 .hide-overflow{
