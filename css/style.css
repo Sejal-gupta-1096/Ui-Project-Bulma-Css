@@ -838,6 +838,10 @@ a.navbar-item:hover {
   bottom: 0 !important;
 }
 
+.font-size-30{
+  font-size: 25px !important;
+}
+
 }
 
 @media screen and (min-width: 1024px){
